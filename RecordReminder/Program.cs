@@ -9,10 +9,12 @@ namespace RecordReminder
         {
             int hour, minute, second;
 
+            Console.Title = "Record Reminder by HexaBinary";
             Console.WriteLine("Teams Toplantı Kayıt Hatırlatıcısına Hoş Geldiniz");
             Console.WriteLine("Eğer programlar ilgili soru veya probleminiz olur ise,");
             Console.WriteLine("https://github.com/HexaBinary/RecordReminder adresinde bir issue oluşturarak veya");
             Console.WriteLine("hexabinary2007@protonmail.com adresine eposta göndererek bana ulaşabilirsiniz");
+            Console.WriteLine("");
 
             while (true)
             {
